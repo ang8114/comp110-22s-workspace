@@ -31,6 +31,8 @@ if entered_letter == entered_word[4]:
     times_appeared = times_appeared + 1
 if times_appeared == 0:
     print("No instances of " + entered_letter + " found in " + entered_word)
+if times_appeared == 1:
+    print(str(times_appeared) + " instance of " + entered_word + " found in " + entered_word)
 else: 
     print(str(times_appeared) + " instances of " + entered_letter + " found in " + entered_word)
 
