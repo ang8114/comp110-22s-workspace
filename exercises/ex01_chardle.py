@@ -6,7 +6,7 @@ __author__ = "730391695"
 entered_word: str = input("Enter a 5-character word ")
 if len(entered_word) != 5:
     print("Error: Word must contain 5 characters. ")
-    exit("Try again. Please enter a 5 character word next time. ")
+    exit("Try again. ")
 entered_letter: str = input("Enter a single character ")
 if len(entered_letter) != 1:
     print("Error: Character must be a single character. ")
@@ -34,7 +34,7 @@ if times_appeared == 0:
     print("No instances of " + entered_letter + " found in " + entered_word)
 else:
     if times_appeared == 1:
-        print(str(times_appeared) + " instance of " + entered_word + " found in " + entered_word)
+        print(str(times_appeared) + " instance of " + entered_letter + " found in " + entered_word)
     else:
         print(str(times_appeared) + " instances of " + entered_letter + " found in " + entered_word)
 
