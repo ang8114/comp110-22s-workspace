@@ -1,6 +1,6 @@
 """One Shot Wordle."""
 
-__author__ = "730391691" 
+__author__ = "730391695"
 
 
 WHITE_BOX: str = "\U00002B1C"
