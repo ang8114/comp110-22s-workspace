@@ -4,6 +4,7 @@ __author__ = "730391695"
 
 
 from turtle import Turtle, done, colormode, tracer, update
+import turtle
 colormode(255)
 
 MAX_SPEED: int = 0
@@ -14,8 +15,7 @@ def main() -> None:
     tracer(0, 0)
     paintbrush: Turtle = Turtle()
     paintbrush.speed(MAX_SPEED)
-    paintbrush.screen.bgcolor("#D1EEEE")
-    paintbrush.screen.bgcolor()
+    turtle.Screen().bgcolor("#D1EEEE")
     grass(paintbrush, -400, -100)
     tree(paintbrush, -300, -200)
     tree(paintbrush, -200, -100)
